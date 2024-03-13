@@ -112,22 +112,6 @@ class _FinalSignUpPageState extends State<FinalSignUpPage> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 16),
-                      child: TextFormField(
-                        controller: otpController,
-                        decoration: const InputDecoration(
-                          border: OutlineInputBorder(),
-                          labelText: "Enter OTP",
-                        ),
-                        validator: (value) {
-                          if (value == null || value.isEmpty) {
-                            return 'Incorrect OTP';
-                          }
-                          return null;
-                        },
-                      ),
-                    ),
-                    Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 15),
                       child: Center(
                         child: ElevatedButton(

@@ -5,7 +5,7 @@ import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'dart:async';
 import 'package:csv/csv.dart';
-import 'google_mlkit_barcode_scanning';
+
 
 class FaceRecognition extends StatefulWidget {
   @override
